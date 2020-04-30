@@ -1,0 +1,17 @@
+package com.sapient.week4;
+
+public class Int_Arr_Process {
+	
+	private int arr[];
+	
+	public Int_Arr_Process(int size) {
+		arr = new int[size];
+	}
+	
+	public Int_Arr_Process() {
+		arr = new int[10];
+	}
+	
+	
+
+}
