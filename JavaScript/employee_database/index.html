@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="/bootstrap/js/jquery-3.5.1.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <header>Employee Database</header>
+
+    <title>Employee Database</title>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" name="checkbox" id="checkbox" class="form-check-input" onclick="getDatabase()">
+         Search Employee by Entering Name<br/>
+        <textarea class="form-control" type="text" id="showName" name="showName" placeholder="Enter employee's name" style="display: none;"></textarea>
+        <button class="btn btn-primary" onclick="getEmployeeData()">Get Employee Database</button><br/>
+    </div>
+    <div class="container">
+        <p id="showData"></p>
+    </div>
+</body>  
+<footer></footer>
+</html>   
