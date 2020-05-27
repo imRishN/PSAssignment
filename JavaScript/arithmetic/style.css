@@ -1,0 +1,21 @@
+.container{
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+header{
+    font-size: xx-large;
+    text-align: center;
+}
+.display-4{
+    text-align: center;
+}
+#res{
+    min-width: fit-content;
+}
+.radio-inline{
+    margin: 20px;
+}
+.btn{
+    margin-bottom: 24px;
+}
