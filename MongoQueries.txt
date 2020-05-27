@@ -1,0 +1,42 @@
+1)  to display all the documents in the collection.  
+
+db.Employee.find();
+
+2.   to display the fields _id, fname  for all the documents in the collection.
+
+db.Employee.find({},{"_id": 1, "fname": 1})
+
+3.  to display the all fields   but exclude the field id for all the documents in the collection.
+
+db.Employee.find({},{"_id": 0})
+
+4    to display the first 5 Employees  
+
+db.Employee.find().limit(5);
+
+5.  to display the next 5 Employees after skipping first 5 
+
+db.Employee.find().skip(5).limit(5);
+
+6.  to find the Employee who stay in Gurgaon city 
+
+db.Employee.find({city : "Gurgaon"});
+
+7.  to find the Employee who jan salary is less than 20000
+
+db.Employee.find({"salary.jan" : {$lt :20000}})
+
+8.  to find the Employee who jan salary is less than 20000 and who stay in Gurgaon city.
+
+db.Employee.find({$and :[{city : "Gurgaon"}, {"salary.jan" : {$lt :20000}}]})
+
+9. to find the total salary of jan month for all the employee.
+
+db.Employee.aggregate([{$group: {_id: '',"Total Salary": {$sum: {$arrayElemAt: ["$salary",0]}}}}, {$project :{_id: 0, "TotalJanSalary": '$Sum'}}]);
+
+10. count how any employee stay in Gurgaon city.
+
+db.Employee.find({city: "Gurgaon"}).count();
+
+
+ 
