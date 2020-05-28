@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Different DOM Elements</title>
+    <header>Different DOM Elements</header>
+</head>
+<body>
+    <div class="contains">
+        <div id="btncontainer">
+            <h2>Button</h2>
+            <button class="btn btn-dark">Button</button>
+        </div>
+        
+        <div>
+            <h2>Table</h2>
+            <table class="table" align="center">
+                <caption>Database</caption>
+                <tbody>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Rishab</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Nahata</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Form</h2>
+            <form class="forms">
+                <input type="text" name="name" placeholder="Name" required><br>
+                <input type="text" name="city" placeholder="City" required><br>
+                <input type="submit" name="submit" value="Submit">
+            </form>
+        </div>
+        <div id="progresscontainer">
+            <h2>Progress Bar</h2>
+            <p>Time Left:</p>
+            <progress class="progress" value="36" max="100">36%</progress>
+        </div>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,27 @@
+#container1{
+    width:90%;
+    background-color: lightblue;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+input[type=email], input[type=password], input[type=submit]{ 
+    width: 280px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+ input[type=submit]{ 
+    background-color: darkblue;
+    color: white;
+}
+
+
+#container1>a{
+    margin-left: 30px;
+}  

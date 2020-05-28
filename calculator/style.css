@@ -1,0 +1,37 @@
+#calculator{ 
+    margin-top: 45px;
+    width: 100%;
+}
+
+table{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input{
+  color:black;
+  width: 65px;
+  height: 55px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#result{
+    width: 340px;
+    height: 60px;
+    margin: 15px;
+    text-align: right;
+    background-color: white;
+    color: black;
+}
+#clear{
+    background-color: grey;
+}
+
+.operator{
+    background-color: rgb(87, 92, 131);
+}

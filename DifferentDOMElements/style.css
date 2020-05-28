@@ -1,0 +1,52 @@
+
+header{
+    text-align: center;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+}
+h2{
+    padding: 8px;
+    background-color: grey;
+    text-align: center;
+    color:white;
+}
+
+.table, .forms, .progress{
+    margin: 36px;
+    text-align: center;
+}
+.btn{
+    margin-bottom: 12px;
+}
+
+#btncontainer, #progresscontainer{
+    text-align: center;
+}
+
+.table{
+    margin: 0px auto;
+    width: 50%;
+}
+th{
+    background-color: grey;
+    color: white;
+}
+
+th,td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.forms>input{
+    margin-bottom: 10px;
+    width: 35vw;
+    height: 25px;
+    text-align: center;
+}
+
+
+.progress{
+    width: 95%;
+    margin-top: 20px;
+}

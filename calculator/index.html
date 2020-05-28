@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calculator" class="container">
+        <table align="center">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="result">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" class="operator" id="clear" name="clear" value="C"></td>
+                <td><input type="button" class="operator" name="brackets" value="e^x"></td>
+                <td><input type="button" class="operator" value="%"></td>
+                <td><input type="button" class="operator" value="/"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="number" name="seven" value="7" ></td>
+                <td><input type="button" class="number" name="eight" value="8"></td>
+                <td><input type="button" class="number" name="nine" value="9"></td>
+                <td><input type="button" class="operator" value="*"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="number" name="four" value="4"></td>
+                <td><input type="button" class="number" name="five" value="5"></td>
+                <td><input type="button" class="number" name="six" value="6"></td>
+                <td><input type="button" class="operator" value="-"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="number" name="one" value="1"></td>
+                <td><input type="button" class="number" name="two" value="2"></td>
+                <td><input type="button" class="number" name="three" value="3"></td>
+                <td><input type="button" class="operator" value="+"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="number" name="backspace" value="<-" ></td>
+                <td><input type="button" class="number" name="zero" value="0"></td>
+                <td><input type="button" class="number" name="dot" value="."></td>
+                <td><input type="button" class="operator" name="equal" value="="></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
