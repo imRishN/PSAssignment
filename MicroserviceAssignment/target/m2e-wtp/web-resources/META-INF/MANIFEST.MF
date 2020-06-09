@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: User
+Build-Jdk: 14.0.1
+Implementation-Title: MicroserviceAssignment
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.sapient.week10
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/MicroserviceAssignment
+Created-By: Maven Integration for Eclipse
+
