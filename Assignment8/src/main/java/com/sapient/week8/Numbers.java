@@ -1,9 +1,10 @@
-package com.sapient.week5;
+package com.sapient.week8;
 
 public class Numbers {
 
 	public boolean checkArmstrong(int n)
 	{
+		if(n<0) throw new IllegalArgumentException();
 		int s = 0;
 		for(int i=n; i>0; i/=10)
 		{
@@ -18,6 +19,7 @@ public class Numbers {
 	
 	public boolean checkPallindrom(int n)
 	{
+		if(n<0) throw new IllegalArgumentException();
 		int r = 0;
 		for(int i=n; i>0; i/=10)
 		{
@@ -32,6 +34,7 @@ public class Numbers {
 	
 	public boolean isPrime(int n)
 	{
+		if(n<0) throw new IllegalArgumentException();
 		int c=0;
 		for(int i=1; i<=n; i++)
 		{
